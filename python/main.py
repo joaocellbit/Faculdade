@@ -5,19 +5,25 @@ from gasolina import gasolinas
 from media import medias
 from perimetro import perimetros
 from tempo import tempos
-escolha = input("")
-if escolha == Str:
-    print("NUMERO CARAI")
-elif escolha == "2":
-    gasolinas()
-elif escolha  == "3":
-    medias()
-elif escolha == "4":
-    perimetros()
-elif escolha == "5":
-    tempos()
-elif escolha == "1":
-    areas()
-else:
-    print("coloque um dos valores")
+while(True):
+    escolha = input("")
+    if escolha == "1":
+        areas()
+        break 
+    elif escolha == "2":
+        gasolinas()
+        break
+    elif escolha  == "3":
+        medias()
+        break
+    elif escolha == "4":
+        perimetros()
+        break
+    elif escolha == "5":
+        tempos()
+        break
+    else:
+        print("coloque um dos valores")
+        
+    
     
