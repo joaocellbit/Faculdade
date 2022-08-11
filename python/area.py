@@ -5,4 +5,6 @@ def areas():
   altura = int(input(""))
   area = lado*altura
   print(area)
+  from main import main
+  main()
 

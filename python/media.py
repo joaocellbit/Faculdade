@@ -7,3 +7,5 @@ def medias():
   print("nota ac:")
   ac = float(input(""))
   print((ap1*0.4+ap2*0.4+ac*0.2))
+  from main import main
+  main()

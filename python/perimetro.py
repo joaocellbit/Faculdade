@@ -6,3 +6,5 @@ def perimetros():
   distancia = int(input(""))
   print("total de voltas")
   print(distancia/perimetro)
+  from main import main
+  main()
