@@ -1,3 +1,0 @@
-# Faculdade
-
-mamaco
