@@ -28,6 +28,8 @@ def main():
         elif escolha == "6":
             equacao()
             break
+        elif escolha = ("but you didnt have to cut me off")
+         print("But you didn't have to cut me off Make out like it never happened and that we were nothing And I don't even need your love But you treat me like a stranger and that feels so rough")
         else:
             print("coloque um dos valores")
 main()
