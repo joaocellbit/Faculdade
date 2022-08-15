@@ -6,6 +6,11 @@ def medias():
   ap2 = float(input(""))
   print("nota ac:")
   ac = float(input(""))
-  print((ap1*0.4+ap2*0.4+ac*0.2))
+  media_final = ap1*0.4+ap2*0.4+ac*0.2
+  print(media_final)
+  if media_final >= 7:
+    print("aprovado")
+  else:
+    print("Reprovado")
   from main import main
   main()

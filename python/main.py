@@ -1,12 +1,13 @@
 
 def main():
-    print("escolha oq vc quer calcular: 1 = area, 2 = gasolina, 3 =media, 4 = perimetro, 5 = tempo")
+    print("escolha oq vc quer calcular: 1 = area, 2 = gasolina, 3 =media, 4 = perimetro, 5 = tempo, 6 = equacao")
     from ast import Str
     from area import areas
     from gasolina import gasolinas
     from media import medias
     from perimetro import perimetros
     from tempo import tempos
+    from equacao import equacao
     while(True):
         escolha = input("")
         if escolha == "1":
@@ -24,10 +25,9 @@ def main():
         elif escolha == "5":
             tempos()
             break
+        elif escolha == "6":
+            equacao()
+            break
         else:
             print("coloque um dos valores")
-main()            
-            
-            
-        
-        
+main()
