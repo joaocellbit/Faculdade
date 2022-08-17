@@ -1,12 +1,10 @@
-quantidade = int(input())
+quantidade = int(input("quantidade de animais: "))
 i = 0
-
+idadeMaior = 0
+nomeMaior = ""
 while(i<quantidade):
     nome_1 = input("nome: ")
     idade_1 = int(input("idade: "))
-    if i == 0:
-        nomeMaior = nome_1
-        idadeMaior = idade_1
     if idade_1 > idadeMaior:
         idadeMaior = idade_1
         nomeMaior = nome_1
