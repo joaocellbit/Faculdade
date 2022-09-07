@@ -11,7 +11,7 @@ for i in range(n):
     def retangulo(x,y):
         return x*y
     def circulo(r):
-        return math.pi*r
+        return math.pi*r**2
     if tipo == 3:
         raio = float(input("raio:"))
         area = circulo(raio)
